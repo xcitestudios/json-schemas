@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "title": "com.xcitestudios.schema.Parallelisation.EventOutput",
+    "description": "Minimum required output for EventOutput",
+    "type": "object",
+    "properties": {
+        "successful": {
+            "type": "boolean",
+            "description": "Did the event get handled correctly and can the data be trusted to be correct for the request."
+        },
+        "responseMessage": {
+            "type": "string",
+            "description": "A general human readable response, useful for providing an error message if WasSuccessful returns false."
+        }
+    },
+    "required": ["successful"]
+}
