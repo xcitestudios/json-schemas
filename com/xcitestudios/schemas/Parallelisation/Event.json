@@ -8,12 +8,12 @@
             "type": "string",
             "description": "Return the type of this event, this is an identifier to determine how to react to it.\n\nFor example you could use a function name, e.g. CalculateFibonacci.\n\nIt is recommended to namespace your types so they will not conflict with others, e.g. 'MyCompany.Math.CalculateFibonacci'."
         },
-		"input": {
+        "input": {
             "$ref": "EventInput.json#"
-		},
-		"output": {
+        },
+        "output": {
             "$ref": "EventOutput.json#"
-		}
+        }
     },
     "required": ["type", "input"]
 }
