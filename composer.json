@@ -1,0 +1,16 @@
+{
+    "name": "xcitestudios/json-schemas",
+    "description": "JSON.org type schemas for use in all interfaces.",
+    "homepage": "https://xcitestudios.com/",
+    "license": "MIT",
+    "keywords": ["xcitestudios", "json", "schema"],
+    "authors": [
+        {
+            "name": "Wade Womersley",
+            "email": "wade85@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "autoload": {}
+}
