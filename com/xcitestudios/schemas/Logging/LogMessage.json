@@ -40,7 +40,7 @@
             "uniqueItems": false
         },
         "extra": {
-            "type": "string",
+            "type": ["string", "null"],
             "description": "Any extra data to store alongside the log entry."
         }
     },
