@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "title": "com.xcitestudios.schema.Network.Server.ServerConfiguration",
+  "title": "com.xcitestudios.schema.Network.Server.Configuration.ServerConfiguration",
   "description": "Minimum required output for a server configuration object",
   "type": "object",
   "properties": {
