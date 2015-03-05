@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "title": "com.xcitestudios.schema.Network.Server.Configuration.AMQPServerConfiguration",
+  "description": "Minimum required output for an AMQP based server configuration object",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "UsernameAuthenticatedServerConfiguration.json#"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "vhost": {
+          "type": "string",
+          "description": "VHost to use, use '/' as default.",
+          "minLength": 1,
+          "default": "/"
+        }
+      },
+      "required": [
+        "vhost"
+      ]
+    }
+  ]
+}
