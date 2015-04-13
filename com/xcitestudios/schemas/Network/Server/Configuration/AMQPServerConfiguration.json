@@ -15,6 +15,11 @@
           "description": "VHost to use, use '/' as default.",
           "minLength": 1,
           "default": "/"
+        },
+        "connectionTimeout": {
+          "type": "integer",
+          "description": "Timeout on connection, default 3 seconds.",
+          "default": 3
         }
       },
       "required": [
