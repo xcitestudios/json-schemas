@@ -163,6 +163,10 @@
               "type": "string",
               "description": "RawContent type of the body. A single type such as text/plain, text/html."
             },
+            "contentID": {
+              "type": "string",
+              "description": "An ID used to link/inline this content body (e.g.) an image into a HTML body for example."
+            },
             "bodyParts": {
               "type": "null"
             },
